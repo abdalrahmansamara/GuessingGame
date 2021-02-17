@@ -1,6 +1,7 @@
-'use strict';
-let userName = prompt('whats your name?');
-alert('Welcome to this website '+ userName);
+function greating (){
+  let userName = prompt('whats your name?');
+ alert('Welcome to this website '+ userName);}
+greating();
 let question1 = '';
 let question2 = '';
 let question3 = '';
