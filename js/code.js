@@ -40,7 +40,7 @@ function question6() {
   for (let i = 0; i < 4; i++) {
     number = prompt('please Enter a number between 0 and a 100');
     for (; ;) {
-      if (isNaN(number)) //3
+      if (isNaN(number))
       {
         alert('this is not a numeric vale, please enter a number');
         number = prompt('please Enter a number between 0 and a 100');
