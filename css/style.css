@@ -1,5 +1,10 @@
 html {
-    background-color: blueviolet;
+    background-color:#f3f3f3;}
+body{
+    box-sizing: border-box;
+    background-image: url('http://www.baltana.com/files/wallpapers-20/Black-Cool-2020-High-Definition-Wallpaper-48858.jpg');
+    background-size: cover;
+    height: 100vh;
 }
 main {
     display: flex;
@@ -7,7 +12,7 @@ main {
 }
 section ul {
     display: inline-block;
-    background-color: darkgreen;
+    background-color: #283747;
     width: auto;
     margin-left: 10px;
     font-size: large;
@@ -17,11 +22,16 @@ section ul {
 }
 section ol {
     display: inline-block;
-    background-color: darkgreen;
+    background-color: #283747;
     width: auto;
-    margin-left: 10px;
+    margin-left: 600px;
     font-size: large;
     border-radius: 10px;
     font-family:'Courier New', Courier, monospace;
      color:yellow;
+}
+section p {
+    color:yellow;
+    margin-right: 200px;
+    
 }
