@@ -11,9 +11,9 @@ main {
     justify-content: 30px;
 }
 section ul {
-    display: inline-block;
-    background-color: #283747;
-    width: auto;
+    /* display: inline-block; */
+    line-height: 1.5;
+    /* width: auto; */
     margin-left: 10px;
     font-size: large;
     border-radius: 10px;
@@ -21,17 +21,26 @@ section ul {
      color:yellow;
 }
 section ol {
-    display: inline-block;
-    background-color: #283747;
-    width: auto;
+    line-height: 1.5;
+    /* display: inline-block; */
+    
+    /* width: auto; */
     margin-left: 600px;
     font-size: large;
     border-radius: 10px;
     font-family:'Courier New', Courier, monospace;
      color:yellow;
 }
+section li:hover {
+    font-size:large;
+    font-weight: bolder;
+    background-color: rgb(30, 107, 81);
+}
 section p {
-    color:yellow;
-    margin-right: 200px;
+    color: gold;
+    /* display: inline-block; */
+    /* text-align: center; */
+    justify-content: 500px;
+    
     
 }
