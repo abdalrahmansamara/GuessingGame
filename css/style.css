@@ -1,8 +1,9 @@
 body{
     box-sizing: border-box;
-    background-image: url('http://www.baltana.com/files/wallpapers-20/Black-Cool-2020-High-Definition-Wallpaper-48858.jpg');
+    background-image: url('../rr.jpg');
     background-size: cover;
     height: 100vh;
+    /* 'http://www.baltana.com/files/wallpapers-20/Black-Cool-2020-High-Definition-Wallpaper-48858.jpg */
 }
 main {
     display: flex;
